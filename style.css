@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#title {
+    font-size: 42px;
+    font-weight: 800;
+    padding: 2rem 0;
+    text-transform: uppercase;
+}
+
+.info {
+    font-size: 28px;
+    font-weight: 600;
+    color: red;
+}
+
+.container,
+.choice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.player,
+.computer {
+    width: 400px;
+    height: 400px;
+    margin: 0 25px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+.display {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display h2,
+.display span {
+    font-size: 25px;
+    color: white;
+    margin: 0 5px;
+    font-weight: 600;
+}
+
+.player-choice,
+.computer-choice {
+    height: 350px;
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice {
+    margin-top: 2rem;
+}
+
+.option {
+    font-size: 50px;
+    padding: 15px;
+    margin: 0 20px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+}
+
+.option:hover {
+    transform: scale(1.1);
+}
